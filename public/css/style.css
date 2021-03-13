@@ -1,0 +1,9 @@
+.seperator::before,
+.seperator::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid rgb(209, 192, 192);
+    width: 20%;
+    margin: -1rem 1rem;
+    transform: translateY(-1rem);
+}

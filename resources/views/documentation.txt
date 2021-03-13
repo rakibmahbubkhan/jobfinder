@@ -1,0 +1,6 @@
+public
+        main(public) page - done
+        login page        - done
+        registration page - done
+        browse jobs page  - working
+        know us page      - 
