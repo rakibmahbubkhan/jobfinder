@@ -43,7 +43,7 @@
         <input class="placeholder-yellow-700 border-r border-b  border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-0" type="password" name="re-password" placeholder="Re-enter Password"><br>
         
         <div class="px-4 py-2 w-4/6" align="left">
-        <p class="text-green-600"><input type="checkbox"> Yes! Send me genuinely useful emails every now and then to help me get the most out of jobKoi.</p>
+        <p class="text-green-600"><input type="checkbox"> Yes! Send me genuinely useful emails every now and then to help me get the most out of jobKoi.</p><br>
         <p class="text-green-600"><input type="checkbox"> Yes, I understand and agree to the JobKoi Terms of Service, including the User Agreement and Privacy Policy.</p>
         </div>
         
