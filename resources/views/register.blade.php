@@ -24,27 +24,30 @@
     <div class="mx-8 my-8" align="center">
         
         <form class="py-8 bg-white w-2/4 rounded-lg" action="/resultr" method="POST">
-        <h1 class="text-2xl text-green-800 pb-4">Create a new account</h1>
+        <h1 class="text-3xl font-black text-yellow-600 pb-4">Create a new account</h1>
         @csrf
-        <input class="border border-gray-300 w-1/3 rounded-md my-4 px-4 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="text" name="firstname" placeholder="Firstname">
-        <input class="border border-gray-300 w-1/3 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="text" name="lastname" placeholder="Lastname"><br>
-        <select class="border border-gray-300 rounded-md mb-4 px-12 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" name="country" id="">
-        <option value="">--Select--</option>
-        <option value="">Bangladesh</option>
-        <option value="">India</option>
-        <option value="">USA</option>
-        <option value="">Pakistan</option>
+        <input class="placeholder-yellow-700 border-r border-b border-gray-300 w-1/3 rounded-md my-4 px-4 py-2 hover:shadow focus:border-0 placeholder-yellow-500::placeholder" type="text" name="firstname" placeholder="Firstname">
+        <input class="placeholder-yellow-700 border-r border-b border-gray-300 w-1/3 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-0" type="text" name="lastname" placeholder="Lastname"><br>
+        <select class="text-yellow-700 border-r border-b border-gray-300 rounded-md mb-4 px-12 py-2 hover:shadow focus:border-0" name="country" id="">
+        <option disabled="disabled" selected="selected" value="0">--Select--</option>
+        <option value="bangladesh">Bangladesh</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="pakistan">Pakistan</option>
         </select>
         
-        <input class="border border-gray-300 w-1/3 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="number" name="phone" placeholder="Phone">
-        <input class="border border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="email" name="email" placeholder="Email">
-        <input class="border border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="text" name="username" placeholder="Username">
-        <input class="border border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="password" name="password" placeholder="Password">
-        <input class="border border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="password" name="re-password" placeholder="Re-enter Password"><br>
-        <p class="relative right-40"><input type="checkbox"> Agree to t&c</p>
+        <input class="placeholder-yellow-700 border-r border-b  border-gray-300 w-1/3 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-0" type="number" name="phone" placeholder="Phone">
+        <input class="placeholder-yellow-700 border-r border-b  border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-0" type="email" name="email" placeholder="Email">
+        <input class="placeholder-yellow-700 border-r border-b  border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-0" type="text" name="username" placeholder="Username">
+        <input class="placeholder-yellow-700 border-r border-b  border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-0" type="password" name="password" placeholder="Password">
+        <input class="placeholder-yellow-700 border-r border-b  border-gray-300 w-4/6 rounded-md mb-4 px-4 py-2 hover:shadow focus:border-0" type="password" name="re-password" placeholder="Re-enter Password"><br>
         
+        <div class="px-4 py-2 w-4/6" align="left">
+        <p class="text-green-600"><input type="checkbox"> Yes! Send me genuinely useful emails every now and then to help me get the most out of jobKoi.</p>
+        <p class="text-green-600"><input type="checkbox"> Yes, I understand and agree to the JobKoi Terms of Service, including the User Agreement and Privacy Policy.</p>
+        </div>
         
-        <input class="px-12 py-2 bg-gray-500 rounded-md text-white hover:bg-green-700 hover:shadow-lg" type="submit" value="Register" name="register">
+        <input class="px-12 py-2 bg-yellow-500 rounded-md text-white hover:bg-yellow-600 hover:shadow-lg" type="submit" value="Register" name="register">
         <p class="seperator my-8">or</p>
         <p><small>Already have an account?</small></p>
         <a href="{{ url('/signin') }}" style="color:blue;">Back to login page</a>

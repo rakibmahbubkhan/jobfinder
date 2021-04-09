@@ -24,13 +24,13 @@
     <div class="mx-8 my-8" align="center">
         
         <form class="py-8 bg-white w-2/5 rounded-lg" action="/resultl" method="POST">
-        <h1 class="text-2xl text-green-800 pb-4">LOGIN HERE</h1>
+        <h1 class="text-3xl font-black text-yellow-600 pb-4">LOGIN HERE</h1>
         @csrf
-        <input class="border border-gray-300 rounded-md my-4 px-8 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="text" name="username" placeholder="USERNAME"><br>
+        <input class="placeholder-yellow-700 border-r border-b border-gray-300 rounded-md my-4 w-60 px-2 py-2 hover:shadow focus:border-0 " type="text" name="username" placeholder="USERNAME"><br>
         @csrf
-        <input class="border border-gray-300 rounded-md mb-4 px-8 py-2 hover:shadow focus:border-2 focus:border-green-500 focus:ring-2 focus:ring-green-500" type="password" name="password" placeholder="PASSWORD"><br>
+        <input class="placeholder-yellow-700 border-r border-b border-gray-300 rounded-md mb-4 w-60 px-2 py-2 hover:shadow focus:border-0" type="password" name="password" placeholder="PASSWORD"><br>
         
-        <input class="px-12 py-2 bg-gray-500 rounded-md text-white hover:bg-green-700 hover:shadow-lg" type="submit" value="Login" name="login">
+        <input class="px-12 py-2 bg-yellow-500 rounded-md text-white hover:bg-yellow-600 hover:shadow-lg" type="submit" value="Login" name="login">
         <p class="seperator my-8">or</p>
         <p><small>Need an account?</small></p>
         <a href="{{ url('/signup') }}" style="color:blue;">Create a new account</a>
