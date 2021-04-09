@@ -23,7 +23,7 @@
     <section>
     <div class="mx-8 my-8" align="center">
         
-        <form class="py-8 bg-white w-2/4 rounded-lg" action="/resultr" method="POST">
+        <form class="py-8 bg-white lg:w-3/4 sm:w-full rounded-lg" action="/resultr" method="POST">
         <h1 class="text-3xl font-black text-yellow-600 pb-4">Create a new account</h1>
         @csrf
         <input class="placeholder-yellow-700 border-r border-b border-gray-300 w-1/3 rounded-md my-4 px-4 py-2 hover:shadow focus:border-0 placeholder-yellow-500::placeholder" type="text" name="firstname" placeholder="Firstname">

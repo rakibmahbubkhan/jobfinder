@@ -23,7 +23,7 @@
     <section>
     <div class="mx-8 my-8" align="center">
         
-        <form class="py-8 bg-white w-2/5 rounded-lg" action="/resultl" method="POST">
+        <form class="py-8 bg-white lg:w-2/5 md:w-2/5 sm:w-full rounded-lg" action="/resultl" method="POST">
         <h1 class="text-3xl font-black text-yellow-600 pb-4">LOGIN HERE</h1>
         @csrf
         <input class="placeholder-yellow-700 border-r border-b border-gray-300 rounded-md my-4 w-60 px-2 py-2 hover:shadow focus:border-0 " type="text" name="username" placeholder="USERNAME"><br>

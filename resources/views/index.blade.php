@@ -12,7 +12,7 @@
             <h3 class="text-xl">Find out your desire services from our platform</h3>
         </div>
 
-        <input class="rounded w-72 h-10 py-4 px-4" type="text" placeholder="Try 'Web Development'"> <button class="w-6 relative top-1 right-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg></button>
+        <input class="rounded w-72 h-10 py-4 px-4" type="text" placeholder="Try 'Web Development'"> <button class="w-6 relative sm:hidden top-1 right-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg></button>
       
         </div>
 
@@ -26,7 +26,7 @@
       
 <section>                <!--offer info section starts -->
 
-        <div class="grid grid-cols-3 space-x-4 py-8 m-2 mx-12">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 space-x-4 py-8 m-2 mx-12">
         
               <div class="shadow-md hover:shadow-xl group hover:bg-yellow-500">
                       <div>
@@ -134,50 +134,50 @@
 
 <section>           <!--Testimonial-->
 
-        <div class="grid grid-cols-2">
+        <div class="grid lg:grid-cols-2 sm:grid-cols-2">
         
-        <div class="rounded-lg shadow-xl m-8 bg-gray-300 grid grid-cols-2">
-            <div class="m-2">
+        <div class="rounded-lg shadow-xl m-4 bg-gray-300 grid grid-cols-2">
+            <div class="m-2 place-self-center">
                 <img class="rounded-xl border-gray-500" src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
             </div>
 
-            <div class="m-2 object-center relative top-12" align="center">
+            <div class="m-2 object-center relative lg:top-12 sm:top-4" align="center">
                 <p class="text-gray-500"><i class="text-2xl">&#8220;</i> lorem ipsum doler set amet lorem ipsum doler set amet lorem ipsum doler set amet <i class="text-2xl">&#8221;</i></blockquote></p>
             </div>
         </div>
 
 
-        <div class="rounded-lg shadow-xl m-8 bg-gray-300 grid grid-cols-2">
-            <div class="m-2">
+        <div class="rounded-lg shadow-xl m-4 bg-gray-300 grid grid-cols-2">
+            <div class="m-2 place-self-center">
                 <img class="rounded-xl border-gray-500" src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
             </div>
 
-            <div class="m-2 object-center relative top-12" align="center">
+            <div class="m-2 object-center relative lg:top-12 sm:top-4" align="center">
                 <p class="text-gray-500"><i class="text-2xl">&#8220;</i> lorem ipsum doler set amet lorem ipsum doler set amet lorem ipsum doler set amet <i class="text-2xl">&#8221;</i></blockquote></p>
             </div>
         </div>
         
         </div>
 
-        <div class="grid grid-cols-2">
+        <div class="grid lg:grid-cols-2 sm:grid-cols-2">
         
-        <div class="rounded-lg shadow-xl m-8 bg-gray-300 grid grid-cols-2">
-            <div class="m-2">
+        <div class="rounded-lg shadow-xl m-4 bg-gray-300 grid grid-cols-2">
+            <div class="m-2 place-self-center">
                 <img class="rounded-xl border-gray-500" src="https://images.pexels.com/photos/6929164/pexels-photo-6929164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
             </div>
 
-            <div class="m-2 object-center relative top-12" align="center">
+            <div class="m-2 object-center relative lg:top-12 sm:top-4" align="center">
                 <p class="text-gray-500"><i class="text-2xl">&#8220;</i> lorem ipsum doler set amet lorem ipsum doler set amet lorem ipsum doler set amet <i class="text-2xl">&#8221;</i></blockquote></p>
             </div>
         </div>
 
 
-        <div class="rounded-lg shadow-xl m-8 bg-gray-300 grid grid-cols-2">
-            <div class="m-2">
+        <div class="rounded-lg shadow-xl m-4 bg-gray-300 grid grid-cols-2">
+            <div class="m-2 place-self-center">
                 <img class="rounded-xl border-gray-500" src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
             </div>
 
-            <div class="m-2 object-center relative top-12" align="center">
+            <div class="m-2 object-center relative lg:top-12 sm:top-4" align="center">
                 <p class="text-gray-500"><i class="text-2xl">&#8220;</i> lorem ipsum doler set amet lorem ipsum doler set amet lorem ipsum doler set amet <i class="text-2xl">&#8221;</i></blockquote></p>
             </div>
         </div>
